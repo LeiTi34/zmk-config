@@ -58,33 +58,33 @@
 #define DE_F12   F12            // F12
 
 // Shifted number row
-#define DE_DGREE LS(DE_CIRC)   // °
-#define DE_EXCL  LS(DE_1)     // !
-#define DE_DQT   LS(DE_2)     // "
-#define DE_PARA  LS(DE_3)     // §
-#define DE_DLLR  LS(DE_4)     // $
-#define DE_PERC  LS(DE_5)     // %
-#define DE_AMPS  LS(DE_6)     // &
-#define DE_SLASH LS(DE_7)     // /
-#define DE_LPAR  LS(DE_8)     // (
-#define DE_RPAR  LS(DE_9)     // )
-#define DE_EQUAL LS(DE_0)     // =
-#define DE_QMARK LS(DE_SZ)    // ?
-#define DE_GRV   LS(DE_ACUTE) // `
+#define DE_DGREE LS(DE_CIRC)    // °
+#define DE_EXCL  LS(DE_1)       // !
+#define DE_DQT   LS(DE_2)       // "
+#define DE_PARA  LS(DE_3)       // §
+#define DE_DLLR  LS(DE_4)       // $
+#define DE_PERC  LS(DE_5)       // %
+#define DE_AMPS  LS(DE_6)       // &
+#define DE_SLASH LS(DE_7)       // /
+#define DE_LPAR  LS(DE_8)       // (
+#define DE_RPAR  LS(DE_9)       // )
+#define DE_EQUAL LS(DE_0)       // =
+#define DE_QMARK LS(DE_SZ)      // ?
+#define DE_GRV   LS(DE_ACUTE)   // `
 
 // Alt number row (some omitted due to lack of usage)
 
 // Alt Gr number row (some omitted due to lack of usage)
-#define DE_LCBR  RA(DE_7)  // {
-#define DE_LBRC  RA(DE_8)  // [
-#define DE_RBRC  RA(DE_9)  // ]
-#define DE_RCBR  RA(DE_0)  // }
-#define DE_BSLSH RA(DE_SZ) // \
+#define DE_LCBR  RA(DE_7)       // {
+#define DE_LBRC  RA(DE_8)       // [
+#define DE_RBRC  RA(DE_9)       // ]
+#define DE_RCBR  RA(DE_0)       // }
+#define DE_BSLSH RA(DE_SZ)      // \
 
 // Other symbols
-#define DE_PLUS  RIGHT_BRACKET   // +
-#define DE_LABK  NON_US_BACKSLASH         // <
-#define DE_SCLN  LS(DE_COMMA)   // ;
+#define DE_PLUS  RIGHT_BRACKET        // +
+#define DE_LABK  NON_US_BACKSLASH     // <
+#define DE_SCLN  LS(DE_COMMA)         // ;
 #define DE_RABK  LS(NON_US_BACKSLASH) // >
 
 #define DE_COMMA COMMA          // ,
@@ -93,20 +93,18 @@
 #define DE_DOT   DOT            // .
 #define DE_COLON LS(DE_DOT)     // :
 
-#define DE_MINUS SLASH         // -
-#define DE_UNDS  LS(DE_MINUS)  // _
+#define DE_MINUS SLASH          // -
+#define DE_UNDS  LS(DE_MINUS)   // _
 
-// #define DE_HASH   BACKSLASH     // #
+// #define DE_HASH   BACKSLASH  // #
 #define DE_HASH  NON_US_HASH    // #
-#define DE_SQT    LS(DE_HASH)     // '
+#define DE_SQT    LS(DE_HASH)   // '
 #define DE_ASTR  LS(DE_PLUS)    // *
 #define DE_AT    RA(DE_Q)       // @
-#define _DK_DGREE LA(_DK_Q)     // °
 
-#define _DK_DIAC  RIGHT_BRACKET // ¨
-#define DE_TILDE RA(DE_PLUS)  // ~
+#define DE_TILDE RA(DE_PLUS)    // ~
 
-#define DE_PIPE  RA(DE_LABK)     // |
+#define DE_PIPE  RA(DE_LABK)    // |
 
 // Standard keys
 #define DE_ESC   ESC            // Escape
