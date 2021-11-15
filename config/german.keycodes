@@ -89,21 +89,15 @@
 
 #define DE_COMMA COMMA          // ,
 #define DE_SCLN  LS(DE_COMMA)   // ;
-
 #define DE_DOT   DOT            // .
 #define DE_COLON LS(DE_DOT)     // :
-
 #define DE_MINUS SLASH          // -
 #define DE_UNDS  LS(DE_MINUS)   // _
-
-// #define DE_HASH   BACKSLASH  // #
 #define DE_HASH  NON_US_HASH    // #
-#define DE_SQT    LS(DE_HASH)   // '
+#define DE_SQT   LS(DE_HASH)    // '
 #define DE_ASTR  LS(DE_PLUS)    // *
 #define DE_AT    RA(DE_Q)       // @
-
 #define DE_TILDE RA(DE_PLUS)    // ~
-
 #define DE_PIPE  RA(DE_LABK)    // |
 
 // Standard keys
