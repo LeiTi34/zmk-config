@@ -58,7 +58,7 @@
 #define DE_F12   F12            // F12
 
 // Shifted number row
-#define DE_DGREE LS(DE_GRV)   // °
+#define DE_DGREE LS(DE_CIRC)   // °
 #define DE_EXCL  LS(DE_1)     // !
 #define DE_DQT   LS(DE_2)     // "
 #define DE_PARA  LS(DE_3)     // §
@@ -70,7 +70,7 @@
 #define DE_RPAR  LS(DE_9)     // )
 #define DE_EQUAL LS(DE_0)     // =
 #define DE_QMARK LS(DE_SZ)    // ?
-#define DE_GRAVE LS(DE_ACUTE) // `
+#define DE_GRV   LS(DE_ACUTE) // `
 
 // Alt number row (some omitted due to lack of usage)
 
@@ -95,15 +95,16 @@
 #define DE_MINUS SLASH         // -
 #define DE_UNDS  LS(DE_MINUS)  // _
 
-#define DE_SQT    BACKSLASH     // '
-#define _DK_ASTR  LS(_DK_SQT)   // *
-#define _DK_AT    LA(_DK_SQT)   // @
+#define DE_HASH   BACKSLASH     // #
+#define DE_SQT    LS(DE_HASH)     // '
+#define DE_ASTR  LS(DE_PLUS)    // *
+#define DE_AT    RA(DE_Q)       // @
 #define _DK_DGREE LA(_DK_Q)     // °
 
 #define _DK_DIAC  RIGHT_BRACKET // ¨
-#define _DK_TILDE LA(_DK_DIAC)  // ~
+#define DE_TILDE RA(DE_PLUS)  // ~
 
-#define _DK_PIPE  LA(_DK_I)     // |
+#define DE_PIPE  RA(DE_LABK)     // |
 
 // Standard keys
 #define DE_ESC   ESC            // Escape
