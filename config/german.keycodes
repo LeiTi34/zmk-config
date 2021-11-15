@@ -30,7 +30,7 @@
 #define DE_AE    SINGLE_QUOTE   // Ä
 
 // Number row
-#define DE_GRV   NON_US_HASH    // ^
+#define DE_CIRC  NON_US_HASH    // ^
 #define DE_1     N1             // 1
 #define DE_2     N2             // 2
 #define DE_3     N3             // 3
@@ -82,9 +82,9 @@
 #define DE_BSLSH RA(DE_SZ) // \
 
 // Other symbols
-#define _DK_LS_TH GRAVE         // <
+#define DE_LABK  GRAVE         // <
 #define DE_SCLN  LS(DE_COMMA)   // ;
-#define _DK_GT_TH LS(_DK_LS_TH) // >
+#define DE_RABK  LS(DE_LABK) // >
 
 #define DE_COMMA COMMA          // ,
 #define DE_SCLN  LS(DE_COMMA)   // ;
@@ -92,10 +92,10 @@
 #define DE_DOT   DOT            // .
 #define DE_COLON LS(DE_DOT)     // :
 
-#define _DK_MINUS SLASH         // -
-#define _DK_UNDS  LS(_DK_MINUS) // _
+#define DE_MINUS SLASH         // -
+#define DE_UNDS  LS(DE_MINUS)  // _
 
-#define _DK_SQT   BACKSLASH     // '
+#define DE_SQT    BACKSLASH     // '
 #define _DK_ASTR  LS(_DK_SQT)   // *
 #define _DK_AT    LA(_DK_SQT)   // @
 #define _DK_DGREE LA(_DK_Q)     // °
@@ -116,7 +116,7 @@
 #define DE_SPACE SPACE          // Space
 #define DE_ENTER ENTER          // Enter
 #define DE_BSPC  BSPC           // Backspace
-#define DEDEL   DELETE         // Delete
+#define DE_DEL   DELETE         // Delete
 
 #define DE_UP    UP             // Up
 #define DE_DOWN  DOWN           // Down
