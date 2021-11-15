@@ -82,6 +82,7 @@
 #define DE_BSLSH RA(DE_SZ) // \
 
 // Other symbols
+#define DE_PLUS  RIGHT_BRACKET   // +
 #define DE_LABK  GRAVE         // <
 #define DE_SCLN  LS(DE_COMMA)   // ;
 #define DE_RABK  LS(DE_LABK) // >
