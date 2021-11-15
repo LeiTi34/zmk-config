@@ -30,7 +30,6 @@
 #define DE_AE    SINGLE_QUOTE   // Ä
 
 // Number row
-#define DE_CIRC  NON_US_HASH    // ^
 #define DE_1     N1             // 1
 #define DE_2     N2             // 2
 #define DE_3     N3             // 3
@@ -96,7 +95,8 @@
 #define DE_MINUS SLASH         // -
 #define DE_UNDS  LS(DE_MINUS)  // _
 
-#define DE_HASH   BACKSLASH     // #
+// #define DE_HASH   BACKSLASH     // #
+#define DE_HASH  NON_US_HASH    // #
 #define DE_SQT    LS(DE_HASH)     // '
 #define DE_ASTR  LS(DE_PLUS)    // *
 #define DE_AT    RA(DE_Q)       // @
