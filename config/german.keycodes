@@ -83,9 +83,9 @@
 
 // Other symbols
 #define DE_PLUS  RIGHT_BRACKET   // +
-#define DE_LABK  LESS_THAN         // <
+#define DE_LABK  NON_US_BACKSLASH         // <
 #define DE_SCLN  LS(DE_COMMA)   // ;
-#define DE_RABK  GREATER_THAN // >
+#define DE_RABK  LS(NON_US_BACKSLASH) // >
 
 #define DE_COMMA COMMA          // ,
 #define DE_SCLN  LS(DE_COMMA)   // ;
