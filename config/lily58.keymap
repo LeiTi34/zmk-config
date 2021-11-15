@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
+#include "german.keycodes"
 
 / {
 	keymap {
@@ -39,11 +40,18 @@
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
-&bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &trans    &trans    &trans          &trans    &trans    &trans
-&kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                       &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
-&kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp TILDE
-&trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &trans   &trans    &trans    &kp MINUS &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp PIPE
-                                              &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
+// &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &trans    &trans    &trans          &trans    &trans    &trans
+// &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                       &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
+// &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp TILDE
+// &trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &trans   &trans    &trans    &kp MINUS &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp PIPE
+//                                               &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
+
+&kp F1    &kp F2      &kp F3      &kp F4      &kp F5      &kp F6                              &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
+&trans    &none       &kp DE_UNDS &kp DE_LBRC &kp DE_RBRC &kp DE_CIRC                         &kp DE_EXCL &kp DE_LABK &kp DE_RABK &kp DE_EQAL &kp DE_AMPS &none
+&trans    &kp DE_BSLSH &kp DE_SLASH &kp DE_LCBR &kp DE_RCBR &kp DE_ASTR                         &kp DE_QMARK &kp DE_LPAR &kp DE_RPAR &kp DE_MINUS &kp DE_COLON &kp DE_AT
+&trans    &kp DE_HASH &kp DE_DLLR  &kp DE_PIPE &kp DE_TILDE &kp DE_GRV  &trans &none &kp DE_PLUS &kp DE_PERC &kp DE_DQT &kp DE_SQT &kp DE_SCLN &none 
+                                  &trans      &trans      &trans      &trans      &trans      &trans      &kp DELETE  &trans
+
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
