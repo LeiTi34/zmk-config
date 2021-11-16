@@ -1,5 +1,7 @@
 # zmk-config
 
+![Build](https://github.com/LeiTi34/zmk-config/actions/workflows/build.yml/badge.svg)
+
 My layout for my Lily58L with german keymap.
 
 
