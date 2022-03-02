@@ -2,9 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: LeiTi34
+      url-base: https://github.com/LeiTi34
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: LeiTi34
       revision: main
       import: app/west.yml
   self:
